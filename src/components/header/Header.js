@@ -7,7 +7,7 @@ const Header = () => (
     <LogoLink to="/">
       <Logo />
     </LogoLink>
-    <Location>Sandon | ZA</Location>
+    <Location>Sandton | ZA</Location>
   </Container>
 );
 

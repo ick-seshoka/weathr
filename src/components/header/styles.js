@@ -13,9 +13,10 @@ export const Logo = styled.img.attrs({ src: CloudsIcon })``;
 
 export const Location = styled.p`
   font-family: "Lato", sans-serif;
-  font-size: 0.9em;
-  font-weight: 600;
+  font-size: 1.1em;
+  font-weight: 400;
   justify-self: end;
+  color: #fff;
 `;
 
 export const LogoLink = styled(Link)`
