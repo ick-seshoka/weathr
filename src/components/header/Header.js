@@ -1,11 +1,13 @@
 import React from "react";
 
-import { Container, Logo, Location } from "./styles";
+import { Container, LogoLink, Logo, Location } from "./styles";
 
 const Header = () => (
   <Container>
-    <Logo />
-    <Location>Location</Location>
+    <LogoLink to="/">
+      <Logo />
+    </LogoLink>
+    <Location>Sandon | ZA</Location>
   </Container>
 );
 
