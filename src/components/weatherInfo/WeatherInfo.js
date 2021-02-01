@@ -1,10 +1,12 @@
 import React from "react";
 
-import { Container, Text } from "./styles";
+import Date from "./date";
+
+import { Container } from "./styles";
 
 const WeatherInfo = () => (
   <Container>
-    <Text>Weather info</Text>
+    <Date />
   </Container>
 );
 
