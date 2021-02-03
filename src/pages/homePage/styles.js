@@ -13,7 +13,7 @@ export const Container = styled.div`
 export const Main = styled.div`
   display: grid;
   grid-template-rows: 150px auto;
-  grid-row-gap: 75px;
+  grid-row-gap: 45px;
   max-width: 1200px;
   margin: 0 auto;
   width: 100%;
