@@ -4,7 +4,7 @@ import { Container, Paragraph } from "./styles";
 
 const Date = () => (
   <Container>
-    <Paragraph>Today, 20 Aug 2018</Paragraph>
+    <Paragraph>Today, 3 Feb 2021</Paragraph>
   </Container>
 );
 

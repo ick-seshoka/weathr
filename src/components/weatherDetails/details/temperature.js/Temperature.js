@@ -1,14 +1,14 @@
 import React from "react";
 
 import Degrees from "./degrees";
-import Forecast from "./forecast";
+import Details from "./details";
 
 import { Container } from "./styles";
 
 const Temperature = () => (
   <Container>
     <Degrees />
-    <Forecast />
+    <Details />
   </Container>
 );
 
