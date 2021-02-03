@@ -7,7 +7,7 @@ const Footer = () => (
     <LogoLink>
       <Logo />
     </LogoLink>
-    <CopyInfo>Weathr. | by Creatr. &copy 2021 </CopyInfo>
+    <CopyInfo>Weathr | by Creatr. © 2021 </CopyInfo>
   </Container>
 );
 
