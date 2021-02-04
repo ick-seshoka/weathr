@@ -8,7 +8,7 @@ import CloudRainThunderIcon from "../../../assets/icons/svg/cloud-rain-thunder-i
 export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(7, auto);
-  width: 70%;
+  width: 65%;
   justify-self: center;
   align-self: center;
   max-height: 60%;

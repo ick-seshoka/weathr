@@ -12,7 +12,7 @@ import {
 
 const Forecast = () => (
   <Container>
-    <Card day="Mon" temperature="14" IconComponent={CloudSun} />
+    <Card isActive day="Mon" temperature="14" IconComponent={CloudSun} />
     <Card day="Tue" temperature="21" IconComponent={CloudRain} />
     <Card day="Wed" temperature="19" IconComponent={CloudRainThunder} />
     <Card day="Thu" temperature="25" IconComponent={Sun} />

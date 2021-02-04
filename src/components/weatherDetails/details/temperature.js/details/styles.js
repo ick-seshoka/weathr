@@ -4,12 +4,25 @@ import Humidity from "../../../../../assets/icons/svg/humidity-icon.svg";
 import Windspeed from "../../../../../assets/icons/svg/wind-speed-icon.svg";
 
 export const Container = styled.div`
+  position: relative;
   display: grid;
   grid-template-columns: repeat(4, 7.3em);
   align-items: center;
   justify-items: end;
   justify-self: end;
   margin-right: 2em;
+
+  &:before {
+    position: absolute;
+    display: block;
+    content: "";
+    right: 0;
+    top: 0;
+    width: 85%;
+    height: 2px;
+    background-color: #d8d8d8;
+    opacity: 0.4;
+  }
 `;
 
 export const MaxTemperature = styled.p``;
