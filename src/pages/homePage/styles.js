@@ -8,6 +8,11 @@ export const Container = styled.div`
   background: linear-gradient(180deg, rgba(109, 226, 255, 0) 0%, #4a96e9 100%),
     url(${Clouds}) no-repeat center center fixed;
   background-size: cover cover;
+  box-sizing: border-box;
+
+  @media screen and (max-width: 1300px) {
+    padding: 0 3em;
+  }
 `;
 
 export const Main = styled.div`
