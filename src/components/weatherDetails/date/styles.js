@@ -10,4 +10,9 @@ export const Paragraph = styled.p`
   font-size: 1.2em;
   font-weight: 300;
   color: #fff;
+
+  @media screen and (max-width: 47.9375em) {
+    font-size: 1.125em;
+    font-weight: 400;
+  }
 `;

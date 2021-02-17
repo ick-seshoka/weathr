@@ -4,13 +4,17 @@ import Date from "./date";
 import Details from "./details";
 import Forecast from "./forecast";
 
+import { Desktop } from "../../styles";
+
 import { Container } from "./styles";
 
 const WeatherDetails = () => (
   <Container>
     <Date />
-    <Details />
-    <Forecast />
+    <Desktop>
+      <Details />
+      <Forecast />
+    </Desktop>
   </Container>
 );
 
