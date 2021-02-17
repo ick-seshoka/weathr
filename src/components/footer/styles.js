@@ -11,6 +11,7 @@ export const Container = styled.footer`
   margin: 0 auto;
   align-content: center;
   height: 150px;
+  width: 100%;
 `;
 
 export const LogoLink = styled(Link)`
