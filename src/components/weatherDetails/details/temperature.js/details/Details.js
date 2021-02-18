@@ -1,12 +1,6 @@
 import React from "react";
 
-import {
-  Container,
-  MinTemperature,
-  MaxTemperature,
-  HumidityIcon,
-  WindspeedIcon,
-} from "./styles";
+import { Container, HumidityIcon, WindspeedIcon } from "./styles";
 
 import Card from "./card";
 

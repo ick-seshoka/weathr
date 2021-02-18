@@ -12,10 +12,25 @@ export const Container = styled.div`
   justify-self: center;
   align-self: center;
   max-height: 60%;
+
+  @media screen and (max-width: 47.9375em) {
+    overflow-x: scroll;
+    max-width: 100%;
+    grid-template-columns: repeat(7, 6.65em);
+    width: 100%;
+    max-height: 100%;
+    overflow-y: hidden;
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
+  }
 `;
 
 const IconImage = styled.img`
   align-self: center;
+
+  @media screen and (max-width: 47.9375em) {
+    width: 2.125em;
+  }
 `;
 
 export const CloudRain = styled(IconImage).attrs({ src: CloudRainIcon })``;

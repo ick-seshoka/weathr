@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 import Humidity from "../../../../../assets/icons/svg/humidity-icon.svg";
 import Windspeed from "../../../../../assets/icons/svg/wind-speed-icon.svg";
@@ -11,6 +11,7 @@ export const Container = styled.div`
   justify-items: end;
   justify-self: end;
   margin-right: 2em;
+  overflow-x: scroll;
 
   &:before {
     position: absolute;
@@ -22,17 +23,30 @@ export const Container = styled.div`
     height: 2px;
     background-color: #d8d8d8;
     opacity: 0.4;
+
+    @media screen and (max-width: 47.9375em) {
+      right: unset;
+      margin-right: unset;
+      display: none;
+    }
   }
 
   @media screen and (max-width: 47.9375em) {
-    grid-template-columns: repeat(4, 5.8em);
+    grid-template-columns: repeat(4, 4.5em);
+    justify-items: center;
+    justify-self: center;
+    margin-right: unset;
   }
 `;
 
-export const MaxTemperature = styled.p``;
+export const HumidityIcon = styled.img.attrs({ src: Humidity })`
+  @media screen and (max-width: 47.9275em) {
+    width: 0.75em;
+  }
+`;
 
-export const MinTemperature = styled.p``;
-
-export const HumidityIcon = styled.img.attrs({ src: Humidity })``;
-
-export const WindspeedIcon = styled.img.attrs({ src: Windspeed })``;
+export const WindspeedIcon = styled.img.attrs({ src: Windspeed })`
+  @media screen and (max-width: 47.9275em) {
+    width: 1.25em;
+  }
+`;

@@ -11,5 +11,6 @@ export const Container = styled.div`
     grid-template-areas:
       "WeatherIcon"
       "Temperature";
+    grid-row-gap: 1.5em;
   }
 `;

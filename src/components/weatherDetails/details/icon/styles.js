@@ -10,6 +10,7 @@ export const WeatherIcon = styled.img.attrs({ src: Icon })`
   grid-area: WeatherIcon;
 
   @media screen and (max-width: 47.9375em) {
-    width: 17.125em;
+    width: 13.125em;
+    height: 8.5em;
   }
 `;

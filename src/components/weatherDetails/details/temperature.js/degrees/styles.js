@@ -8,7 +8,8 @@ export const Container = styled.div`
 
   @media screen and (max-width: 47.9375em) {
     grid-template-columns: auto;
-    grid-template-rows: fit-content(repeat(2, auto));
+    grid-template-rows: repeat(2, auto);
+    align-items: center;
   }
 `;
 
@@ -33,12 +34,13 @@ export const Temperature = styled.p`
   }
 
   @media screen and (max-width: 47.9375em) {
-    font-size: 6.75em;
-    font-weight: 400;
+    font-size: 6.455em;
+    font-weight: 300;
 
     &:after {
       width: 8px;
       height: 8px;
+      border: 2px solid #fff;
     }
   }
 `;
@@ -53,5 +55,7 @@ export const Description = styled.p`
     font-size: 1.875em;
     font-weight: 400;
     letter-spacing: 0.05em;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
   }
 `;

@@ -7,11 +7,16 @@ export const Container = styled.div`
   height: 100%;
   background: linear-gradient(180deg, rgba(109, 226, 255, 0) 0%, #4a96e9 100%),
     url(${Clouds}) no-repeat center center fixed;
-  background-size: cover cover;
+  background-size: cover;
   box-sizing: border-box;
 
   @media screen and (max-width: 1300px) {
     padding: 0 3em;
+  }
+
+  @media screen and (max-width: 47.9375em) {
+    height: auto;
+    padding: 0 1.5em;
   }
 `;
 
@@ -25,6 +30,9 @@ export const Main = styled.div`
   height: 100%;
 
   @media screen and (max-width: 47.9375em) {
-    grid-template-rows: 7.975em auto;
+    grid-template-rows: 7.975em 1fr;
+    grid-row-gap: 15px;
+    max-width: 100%;
+    height: auto;
   }
 `;
