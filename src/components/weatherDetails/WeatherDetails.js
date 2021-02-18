@@ -11,8 +11,8 @@ import { Container } from "./styles";
 const WeatherDetails = () => (
   <Container>
     <Date />
+    <Details />
     <Desktop>
-      <Details />
       <Forecast />
     </Desktop>
   </Container>

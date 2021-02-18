@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 import Humidity from "../../../../../assets/icons/svg/humidity-icon.svg";
 import Windspeed from "../../../../../assets/icons/svg/wind-speed-icon.svg";
@@ -22,6 +22,10 @@ export const Container = styled.div`
     height: 2px;
     background-color: #d8d8d8;
     opacity: 0.4;
+  }
+
+  @media screen and (max-width: 47.9375em) {
+    grid-template-columns: repeat(4, 5.8em);
   }
 `;
 
