@@ -19,7 +19,11 @@ export const LogoLink = styled(Link)`
   color: transparent;
 `;
 
-export const Logo = styled.img.attrs({ src: CloudsIcon })``;
+export const Logo = styled.img.attrs({ src: CloudsIcon })`
+  @media screen and (max-width: 47.9375em) {
+    width: 4.8675em;
+  }
+`;
 
 export const CopyInfo = styled.p`
   font-family: "Lato", sans-serif;
@@ -27,4 +31,9 @@ export const CopyInfo = styled.p`
   align-self: center;
   justify-self: end;
   color: #7f9ba7;
+
+  @media screen and (max-width: 47.9375em) {
+    font-size: 0.985em;
+    font-weight: 300;
+  }
 `;

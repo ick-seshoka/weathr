@@ -23,4 +23,8 @@ export const Main = styled.div`
   margin: 0 auto;
   width: 100%;
   height: 100%;
+
+  @media screen and (max-width: 47.9375em) {
+    grid-template-rows: 7.975em auto;
+  }
 `;
