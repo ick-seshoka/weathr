@@ -31,6 +31,10 @@ export const Title = styled.p`
   color: ${({ active }) => (!active ? "#e0e0e0" : "#fff")};
   font-size: 1em;
   align-self: center;
+
+  @media screen and (max-width: 47.9375em) {
+    font-size: 0.875em;
+  }
 `;
 
 export const Temperature = styled.p`
@@ -51,5 +55,9 @@ export const Temperature = styled.p`
     height: 4px;
     border-radius: 50%;
     border: 1.5px solid ${({ active }) => (!active ? "#e0e0e0" : "#fff")};
+  }
+
+  @media screen and (max-width: 47.9375em) {
+    font-size: 1.125em;
   }
 `;

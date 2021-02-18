@@ -6,10 +6,24 @@ body,
   height: 100%;
 }
 
+@media screen and (max-width: 47.9375em) {
+  html,
+  body,
+  #root,
+  #app {
+    width: 100%;
+    height: auto;
+  }
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
 
 * p {
   margin: 0;
+}
+
+* {
+  box-sizing: border-box;
 }

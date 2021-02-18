@@ -7,9 +7,18 @@ export const Container = styled.div`
   display: grid;
   grid-template-columns: 20% auto;
   align-items: end;
+
+  @media screen and (max-width: 47.9375em) {
+    grid-template-rows: repeat(1, 1fr);
+    align-items: center;
+  }
 `;
 
-export const Logo = styled.img.attrs({ src: CloudsIcon })``;
+export const Logo = styled.img.attrs({ src: CloudsIcon })`
+  @media screen and (max-width: 47.9375em) {
+    width: 4.8675em;
+  }
+`;
 
 export const Location = styled.p`
   font-family: "Lato", sans-serif;
@@ -17,6 +26,11 @@ export const Location = styled.p`
   font-weight: 400;
   justify-self: end;
   color: #fff;
+
+  @media screen and (max-width: 47.9375em) {
+    font-size: 0.985em;
+    font-weight: 600;
+  }
 `;
 
 export const LogoLink = styled(Link)`
