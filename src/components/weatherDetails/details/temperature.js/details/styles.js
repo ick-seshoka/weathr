@@ -49,6 +49,10 @@ export const Container = styled.div`
     justify-items: center;
     justify-self: center;
   }
+
+  @media screen and (min-width: 62em) and (max-width: 75em) {
+    grid-template-columns: repeat(4, 5.9em);
+  }
 `;
 
 export const HumidityIcon = styled.img.attrs({ src: Humidity })`
