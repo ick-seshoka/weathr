@@ -12,6 +12,7 @@ export const Container = styled.footer`
   align-content: center;
   height: 150px;
   width: 100%;
+  background-color: #f3f3f3;
 
   @media screen and (max-width: 47.9375em) {
     max-width: 100%;
