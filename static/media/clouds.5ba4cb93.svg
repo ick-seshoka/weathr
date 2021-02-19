@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="113px" height="68px" viewBox="0 0 113 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Logo</title>
+    <defs>
+        <ellipse id="path-1" cx="82.07067" cy="20.2420218" rx="20.3777672" ry="20.2420218"></ellipse>
+        <filter x="-2.5%" y="-4.9%" width="109.8%" height="109.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="1" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.255944293 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="7.51552795" y="34.8583744" width="102.484472" height="27.3399015" rx="13.6699507"></rect>
+        <filter x="-2.4%" y="-16.5%" width="106.8%" height="125.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.250396286 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M52.9503106,62.1982759 C61.7719006,62.1982759 84.0372671,48.2747175 84.0372671,31.0991379 C84.0372671,13.9235583 70.1191626,0 52.9503106,0 C35.7814586,0 21.863354,13.9235583 21.863354,31.0991379 C21.863354,36.6661598 21.2117441,47.0325391 19.9085241,62.1982759 C36.0553217,62.1982759 47.0692505,62.1982759 52.9503106,62.1982759 Z" id="path-5"></path>
+        <filter x="-1.6%" y="-3.2%" width="106.2%" height="106.4%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="1" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.443076313 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <ellipse id="path-7" cx="18.3333333" cy="44.1841133" rx="18.3333333" ry="18.2112069"></ellipse>
+        <filter x="-2.7%" y="-5.5%" width="110.9%" height="111.0%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="1" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.248811141 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-page-design-HD" transform="translate(-250.000000, -93.000000)">
+            <g id="Logo-icon" transform="translate(250.000000, 94.000000)">
+                <g id="Sun">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FDFBA3" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Clounds" transform="translate(0.000000, 2.241379)">
+                    <g id="Baby-blue-cloud">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#7ADBFD" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="Dark-blue-cloud">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use fill="#4A90E2" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    </g>
+                    <g id="Light-blue-cloud">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                        <use fill="#91D0FC" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
