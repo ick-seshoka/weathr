@@ -1,10 +1,12 @@
 import React from "react";
 
+import { dateNow } from "../../../helpers";
+
 import { Container, Paragraph } from "./styles";
 
 const Date = () => (
   <Container>
-    <Paragraph>Today, 3 Feb 2021</Paragraph>
+    <Paragraph>Today, {dateNow}</Paragraph>
   </Container>
 );
 
