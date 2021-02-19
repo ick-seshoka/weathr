@@ -17,6 +17,11 @@ export const Container = styled.div`
     grid-template-rows: repeat(2, auto);
     align-items: end;
   }
+
+  @media screen and (min-width: 62em) and (max-width: 75em) {
+    align-items: end;
+    justify-items: start;
+  }
 `;
 
 export const Temperature = styled.p`
@@ -60,6 +65,10 @@ export const Temperature = styled.p`
       border: 2.5px solid #fff;
     }
   }
+
+  @media screen and (min-width: 62em) and (max-width: 75em) {
+    font-size: 10.975em;
+  }
 `;
 
 export const Description = styled.p`
@@ -78,5 +87,9 @@ export const Description = styled.p`
 
   @media screen and (min-width: 48em) and (max-width: 61.9375em) {
     font-size: 2.275em;
+  }
+
+  @media screen and (min-width: 62em) and (max-width: 75em) {
+    font-size: 1.875em;
   }
 `;
