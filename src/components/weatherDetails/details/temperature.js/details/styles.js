@@ -29,6 +29,11 @@ export const Container = styled.div`
       margin-right: unset;
       display: none;
     }
+
+    @media screen and (min-width: 48em) and (max-width: 61.9375em) {
+      right: 1.125em;
+      width: 90%;
+    }
   }
 
   @media screen and (max-width: 47.9375em) {
@@ -36,6 +41,13 @@ export const Container = styled.div`
     justify-items: center;
     justify-self: center;
     margin-right: unset;
+  }
+
+  @media screen and (min-width: 48em) and (max-width: 61.9375em) {
+    grid-template-columns: repeat(4, 4.9em);
+    margin-right: unset;
+    justify-items: center;
+    justify-self: center;
   }
 `;
 

@@ -23,6 +23,10 @@ export const Container = styled.div`
     padding-top: 3.5em;
     padding-bottom: 3.5em;
   }
+
+  @media screen and (min-width: 48em) and (max-width: 61.9375em) {
+    width: 85%;
+  }
 `;
 
 const IconImage = styled.img`

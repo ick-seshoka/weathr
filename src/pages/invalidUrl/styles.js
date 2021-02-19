@@ -10,6 +10,14 @@ export const Container = styled.div`
   height: 100%;
   background-color: #f3f3f3;
   justify-items: center;
+
+  @media screen and (max-width: 47.9375em) {
+    padding: 0 1.5em;
+  }
+
+  @media screen and (min-width: 48em) {
+    padding: 0 3em;
+  }
 `;
 
 export const ContentWrap = styled.div`
