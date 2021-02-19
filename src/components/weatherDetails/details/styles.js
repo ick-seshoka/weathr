@@ -13,4 +13,9 @@ export const Container = styled.div`
       "Temperature";
     grid-row-gap: 1.5em;
   }
+
+  @media screen and (min-width: 48em) and (max-width: 61.9375em) {
+    grid-template-areas: "WeatherIcon Temperature";
+    grid-template-columns: 1fr 1.2fr;
+  }
 `;

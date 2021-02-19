@@ -13,4 +13,9 @@ export const WeatherIcon = styled.img.attrs({ src: Icon })`
     width: 13.125em;
     height: 8.5em;
   }
+
+  @media screen and (min-width: 48em) and (max-width: 61.9375em) {
+    width: 18.75em;
+    height: 13.125em;
+  }
 `;

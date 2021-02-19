@@ -1,5 +1,5 @@
 import React from "react";
-import { Desktop, Mobile } from "../../styles";
+import { Default, Mobile } from "../../styles";
 
 import Header from "../../components/header";
 import WeatherDetails from "../../components/weatherDetails";
@@ -14,9 +14,9 @@ const HomePage = () => (
         <Header />
         <WeatherDetails />
       </Main>
-      <Desktop>
+      <Default>
         <Footer />
-      </Desktop>
+      </Default>
     </Container>
     <Mobile>
       <Footer />
