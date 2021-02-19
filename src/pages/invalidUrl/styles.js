@@ -25,6 +25,10 @@ export const Title = styled.h3`
   color: #373737;
   font-size: 3.125em;
   margin-bottom: 1.1875em;
+
+  @media screen and (max-width: 47.9375em) {
+    font-size: 2.275em;
+  }
 `;
 
 export const Paragraph = styled.p`
@@ -36,6 +40,11 @@ export const Paragraph = styled.p`
   text-align: center;
   line-height: 1.5;
   margin-bottom: 2.926em;
+
+  @media screen and (max-width: 47.9375em) {
+    font-size: 1.265em;
+    max-width: 80%;
+  }
 `;
 
 export const ViewWeatherButton = styled(Link)`
@@ -54,6 +63,10 @@ export const ViewWeatherButton = styled(Link)`
 
   &:hover {
     transform: scale(1.2);
+  }
+
+  @media screen and (max-width: 47.9375em) {
+    font-size: 1.075em;
   }
 `;
 
