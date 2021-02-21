@@ -4,7 +4,7 @@ import { Container, LogoLink, Logo, CopyInfo } from "./styles";
 
 const Footer = () => (
   <Container>
-    <LogoLink>
+    <LogoLink to="/">
       <Logo />
     </LogoLink>
     <CopyInfo>Weathr | by Creatr. © 2021 </CopyInfo>
