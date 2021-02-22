@@ -10,7 +10,6 @@ export const getUserLocation = () => async (dispatch) => {
     const { data } = await axios(locationConfig);
     dispatch(actions.setUserLocation(data));
   } catch (e) {
-    debugger;
     dispatch(actions.setUserLocationError(e));
   } finally {
     dispatch(actions.setUserLocationLoading(false));
