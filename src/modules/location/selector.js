@@ -3,4 +3,5 @@ export const getUserCountryCode = (state) =>
   state.location?.userLocation?.country_code || "";
 export const getUserCountryFlag = (state) =>
   state.location?.userLocation?.flag || "";
-export const getUserLoading = (state) => state.location?.loading || false;
+export const getUserLoading = (state) => state.location?.loading;
+export const getLocationError = (state) => state.location?.error;

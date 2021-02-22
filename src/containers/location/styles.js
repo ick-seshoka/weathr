@@ -39,3 +39,7 @@ export const FlagIcon = styled.img`
 `;
 
 export const PinIcon = styled(Emoji)``;
+
+export const ErrorMessage = styled(Paragraph)``;
+
+export const SadIcon = styled(Emoji)``;
