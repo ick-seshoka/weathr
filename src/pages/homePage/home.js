@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Default, Mobile } from "../../styles";
 
 import Header from "../../components/header";
@@ -7,21 +7,27 @@ import Footer from "../../components/footer";
 
 import { Main, Container } from "./styles";
 
-const HomePage = () => (
-  <>
-    <Container>
-      <Main>
-        <Header />
-        <WeatherDetails />
-      </Main>
-      <Default>
+const HomePage = ({ getUserLocation }) => {
+  useEffect(() => {
+    getUserLocation();
+  });
+
+  return (
+    <>
+      <Container>
+        <Main>
+          <Header />
+          <WeatherDetails />
+        </Main>
+        <Default>
+          <Footer />
+        </Default>
+      </Container>
+      <Mobile>
         <Footer />
-      </Default>
-    </Container>
-    <Mobile>
-      <Footer />
-    </Mobile>
-  </>
-);
+      </Mobile>
+    </>
+  );
+};
 
 export default HomePage;
