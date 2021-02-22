@@ -8,15 +8,16 @@ import {
   Pipe,
   CountryCode,
   FlagIcon,
+  ErrorMessage,
+  SadIcon,
 } from "./styles";
 import DotPulse from "../../components/loader/dotPulse";
 
-const Location = ({ cityName, countryCode, flag, loading }) => {
+const Location = ({ cityName, countryCode, flag, loading, error }) => {
   return (
     <Container>
-      {loading ? (
-        <DotPulse />
-      ) : (
+      {loading && <DotPulse />}
+      {!loading && !error && (
         <>
           <CityName>
             <PinIcon>📍</PinIcon> {cityName}
@@ -28,6 +29,12 @@ const Location = ({ cityName, countryCode, flag, loading }) => {
           </CountryCode>
         </>
       )}
+      {error && (
+        <ErrorMessage>
+          <SadIcon>😕</SadIcon>
+          No location
+        </ErrorMessage>
+      )}
     </Container>
   );
 };
@@ -37,6 +44,7 @@ Location.propsTypes = {
   countryCode: PropTypes.string,
   flag: PropTypes.string,
   loading: PropTypes.bool,
+  error: PropTypes.any,
 };
 
 export default Location;

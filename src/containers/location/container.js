@@ -1,5 +1,6 @@
 import { connect } from "react-redux";
 import {
+  getLocationError,
   getUserCity,
   getUserCountryCode,
   getUserCountryFlag,
@@ -12,6 +13,7 @@ const mapStateToProps = (state) => ({
   countryCode: getUserCountryCode(state),
   flag: getUserCountryFlag(state),
   loading: getUserLoading(state),
+  error: getLocationError(state),
 });
 
 export default connect(mapStateToProps)(Location);
